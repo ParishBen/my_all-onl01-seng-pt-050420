@@ -7,4 +7,10 @@ while i < collection.length
 newcollect << yield(collection[i])
 i+=1 
 end
+if newcollect.include?
+  (false)
+  false
+else 
+  true 
+ end
 end
